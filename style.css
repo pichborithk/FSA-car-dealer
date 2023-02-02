@@ -232,15 +232,15 @@ footer {
   display: flex;
   justify-content: center;
   background-color: #0063ae;
-  padding: 30px;
+  padding: 2rem;
   color: #fff;
+  gap: 4rem;
 }
 
 footer > section {
   display: flex;
   flex-direction: column;
   flex-shrink: 1;
-  margin-right: 80px;
   line-height: 3.5rem;
 }
 footer > section > h3 {
@@ -281,7 +281,7 @@ footer > section > a {
 
 @media only screen and (max-width: 576px) {
   html {
-    font-size: 40%;
+    font-size: 50%;
   }
   header > div {
     height: 25vh;
